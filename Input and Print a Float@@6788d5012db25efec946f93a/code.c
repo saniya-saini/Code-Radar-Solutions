@@ -4,5 +4,5 @@ int main()
     float a;
     scanf("%f",&a);
     printf("You entered",a);
-    return 0
+    return 0;
 }
