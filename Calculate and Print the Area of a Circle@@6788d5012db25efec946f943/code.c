@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()[
-    int a;
+    float a;
     float area;
     scanf("%f", &a);
     area=3.14*a*a;
