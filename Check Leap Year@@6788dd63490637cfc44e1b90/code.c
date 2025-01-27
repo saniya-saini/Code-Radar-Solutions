@@ -7,4 +7,6 @@ int main (){
     {
         printf("Leap year");
     }
+    else{
+        printf("Not a leap year");    }
 }
