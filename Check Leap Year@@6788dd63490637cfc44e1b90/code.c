@@ -8,6 +8,6 @@ int main (){
         printf("Leap year");
     }
     else{
-        printf("Not a leap year");
+        printf("Not a Leap Year");
             }
 }
