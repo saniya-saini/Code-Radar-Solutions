@@ -5,6 +5,6 @@ int main (){
     scanf("%d", &a);
     if ((a%400==0) ||(a%4==0&& a%4==0) );
     {
-        printf("Leap year")
+        printf("Leap year");
     }
 }
