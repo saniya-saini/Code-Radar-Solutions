@@ -7,9 +7,9 @@ int main(){
     {
         if(a=="a"|| a=="e"|| a=="i" || a=="o" || a=="u" || a=="A" || a=="I"|| a=="O"|| a=="U" || a=="E")
         {
-            printf("Vowels");
+            printf("Vowel");
         }
-        else{printf("Consonants");}
+        else{printf("Consonant");}
     }
     else if(a<="9" && a>="0")
     {
