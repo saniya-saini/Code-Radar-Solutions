@@ -22,6 +22,8 @@ int main(){
         result4=b/c;
         printf("%d", result4);
         break;
+        default:
+        printf("Error");
     }
 
 }
