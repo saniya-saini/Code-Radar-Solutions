@@ -19,10 +19,10 @@ int main(){
         printf("%d", result);
         break;
         case'/':
-        if(c!=0){
+         if(c!=0){
         result=b/c;
         printf("%d", result);}
-        else{printf("Error");}
+         else{printf("Error");}
         break;
         default:
         printf("Error");
