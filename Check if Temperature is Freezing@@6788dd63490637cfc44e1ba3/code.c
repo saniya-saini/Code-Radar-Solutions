@@ -5,6 +5,6 @@ int main(){
     scanf("%d", &a);
     if (a>0){
         printf("Above Freezing");}
-    else if
+    else
     { printf("Freezing");}
     }
