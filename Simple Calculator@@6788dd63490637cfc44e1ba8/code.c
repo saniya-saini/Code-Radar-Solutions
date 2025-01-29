@@ -11,16 +11,16 @@ int main(){
         printf("%d", result);
         break;
         case '-':
-        result2=b-c;
-        printf("%d", result2);
+        result=b-c;
+        printf("%d", result);
         break;
         case'*':
-        result3=b*c;
-        printf("%d", result3);
+        result=b*c;
+        printf("%d", result);
         break;
         case'/':
-        result4=b/c;
-        printf("%d", result4);
+        result=b/c;
+        printf("%d", result);
         break;
         default:
         printf("Error");
