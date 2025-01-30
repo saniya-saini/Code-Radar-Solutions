@@ -3,31 +3,24 @@
 int main(){
     char a;
     int b,c,result;
-    scanf("%d %d", &b, &c);
-    scanf("%c", &a);
-    switch(a){
-        case '+':
-        result= b+c;
-        printf("%d", result);
-        break;
-        case '-':
-        result=b-c;
-        printf("%d", result);
-        break;
-        case'*':
-        result=b*c;
-        printf("%d", result);
-        break;
-        case'/':
-         if(c!=0){
-        result=b/c;
-        printf("%d", result);}
-         else
-         {printf("Error");}
-        break;
-        default:
-        printf("Error");
-        break;
-    }
-
+    float div;
+    div=a/b;
+    scanf("%d %d %c", &b, &c, &a);
+     if(a == '+'){
+     printf("%d", a+b);        
+     }
+     else if(a=='-'){
+        printf("%d", a-b);
+     }
+     else if(a=='*'){
+        printf("&d", a*b)
+     }
+     else if(a=='/'){
+        if(c==0){
+            printf("error");
+        }
+        else{
+            printf("%d", a/b);
+        }
+     }
 }
