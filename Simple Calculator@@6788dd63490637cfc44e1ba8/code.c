@@ -2,7 +2,7 @@
 
 int main(){
     char a;
-    int b,c,result;
+    int b,c;
     float div;
     div=a/b;
     scanf("%d %d %c", &b, &c, &a);
