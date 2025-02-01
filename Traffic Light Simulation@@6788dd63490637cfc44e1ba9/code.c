@@ -9,8 +9,8 @@ int main(){
         printf("Go");
     }
     else if(a=='Y')
-    {printf("slow Down");}
-    else{printf("Invalid Output");}
+    {printf("Slow Down");}
+    else{printf("Invalid input");}
 
 
 }
