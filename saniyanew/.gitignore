@@ -1,4 +1,6 @@
+.DS_store
+Thumbs.db
+NTUSER.DAT
 *.log
-node_modules/
-*.tmp
-
+.vscode/
+node_modules
