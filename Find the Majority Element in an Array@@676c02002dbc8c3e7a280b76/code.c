@@ -38,7 +38,7 @@ int main(){
     if (count<n/2){
     printf("-1");
     }
-    else(count>n/2){
+    else{
         printf("%d", arr[i]);
     }
 
