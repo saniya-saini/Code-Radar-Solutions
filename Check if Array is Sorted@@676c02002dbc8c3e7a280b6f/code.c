@@ -6,7 +6,7 @@ int main(){
     for (i=0;i<n;i++){
         scanf("%d", arr[i]);
     }
-    sorted=1;
+    int sorted=1;
     for(i=0;i<n;i++){
     if(arr[i] < arr[n+1])
     sorted=0;
