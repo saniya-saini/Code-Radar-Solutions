@@ -29,7 +29,7 @@ int majorityelement(int arr[],int n){
 int main(){
     int n;
     scanf("%d", &n);
-    int arr[n];
+    int arr[n],i;
     for(i=0;i<n;i++){
         scanf("%d", &arr[]);
     }
