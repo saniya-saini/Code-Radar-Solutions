@@ -31,7 +31,7 @@ int main(){
     scanf("%d", &n);
     int arr[n],i;
     for(i=0;i<n;i++){
-        scanf("%d", &arr[]);
+        scanf("%d", &arr[i]);
     }
     majority=majorityelement(arr,n)
     if (count<n/2){
