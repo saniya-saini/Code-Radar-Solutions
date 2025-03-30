@@ -1,6 +1,5 @@
 #include<stdio.h>
-void reversE( int arr[], int start , int end){
-    int arr[n];
+void reverse( int arr[], int start , int end){
     int temp;
     while start<end{
         temp=arr[start];
@@ -22,5 +21,5 @@ void reversE( int arr[], int start , int end){
         reverse(arr,0,k-1);
         reverse(arr,k,n-1);
     }
-    printf("%D", &arr[i])
+    printf("%d", &arr[i])
 }
