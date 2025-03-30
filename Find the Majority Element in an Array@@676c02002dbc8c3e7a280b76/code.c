@@ -34,6 +34,7 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int majority=majorityelement(arr,n);
+    int count;
     if (count<n/2){
     printf("-1")
     }
