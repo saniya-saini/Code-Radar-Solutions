@@ -1,5 +1,5 @@
 #include <stdio.h>
-int majorityelement(int arr[],n){
+int majorityelement(int arr,n){
     int count =1; candidate=arr[0];
     for (i=0;i<n;i++){
         if(a[i]==candidate){
@@ -33,7 +33,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d", &arr[]);
     }
-    majority=majorityelement(arr[],n)
+    majority=majorityelement(arr,n)
     if (count<n/2){
     printf("-1")
     }
