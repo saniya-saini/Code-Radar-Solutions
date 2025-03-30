@@ -15,8 +15,8 @@ int main(){
         if(arr[i]%2!=0){
             odd=odd+1;
         }}
-    printf("%c ", even);
-    printf("%c", odd);
+    printf("%d ", even);
+    printf("%d", odd);
         }
         
         
