@@ -21,7 +21,7 @@ int main(){
     reverse(arr,0,n-1);
     reverse(arr,0,k-1);
     reverse(arr,k,n-1);
-for (i=0;i<n;i++){
+    for (i=0;i<n;i++){
     printf("%d", arr[i])
 }
 
