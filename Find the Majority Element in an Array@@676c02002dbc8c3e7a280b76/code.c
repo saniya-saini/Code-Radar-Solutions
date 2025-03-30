@@ -33,7 +33,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d", &arr[i]);
     }
-    majority=majorityelement(arr,n)
+    majority=majorityelement(arr,n);
     if (count<n/2){
     printf("-1")
     }
