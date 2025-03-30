@@ -9,7 +9,7 @@ void reverse(int start, int end,int arr[]){
     end--;
 }}
 int main(){
-    int n;
+    int n,i;
     scanf("%d", &n);
     int arr[n];
     for (i=0;i<n;i++){
