@@ -35,11 +35,11 @@ int main(){
     }
     int majority=majorityelement(arr,n);
     int count;
-    if (count<n/2){
+    if (majority<n/2){
     printf("-1");
     }
     else{
-        printf("%d", arr[i]);
+        printf("%d", majority);
     }
 
 }
