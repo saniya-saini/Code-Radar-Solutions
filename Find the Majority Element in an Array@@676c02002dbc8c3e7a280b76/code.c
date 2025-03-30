@@ -38,8 +38,8 @@ int main(){
     if (count<n/2){
     printf("-1");
     }
-    else(count>n/2{
+    else(count>n/2){
         printf("%d", arr[i]);
-    })
+    }
 
 }
