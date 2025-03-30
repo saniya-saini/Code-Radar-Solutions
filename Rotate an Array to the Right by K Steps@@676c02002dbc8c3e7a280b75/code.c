@@ -1,5 +1,5 @@
 #include <stdio.h>
-void reverse(start,end,arr[]){
+void reverse(int start, int end,int arr[]){
     int temp;
     for (start<end){
     temp=arr[start];
