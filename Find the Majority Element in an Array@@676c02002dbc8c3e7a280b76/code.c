@@ -39,7 +39,7 @@ int main(){
     printf("-1");
     }
     else(count>n/2{
-        printf("%d", arr[i])
+        printf("%d", arr[i]);
     })
 
 }
