@@ -1,7 +1,7 @@
 #include <stdio.h>
 void reverse(int start, int end,int arr[]){
     int temp;
-    for (start<end){
+    while(start<end){
     temp=arr[start];
     arr[start]=arr[end];
     arr[end]=temp;
