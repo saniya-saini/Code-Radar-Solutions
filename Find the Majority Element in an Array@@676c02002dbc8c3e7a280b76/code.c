@@ -20,11 +20,11 @@ int majorityelement(int arr[],int n){
     }
    }
    if(count>n/2){
-    return candidate;
+    return candidate;}
     else{
         return -1;
     }
-   }
+   
 }
 int main(){
     int n;
