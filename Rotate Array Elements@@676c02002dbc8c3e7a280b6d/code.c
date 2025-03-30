@@ -8,6 +8,7 @@ void reverse( int arr[], int start , int end){
         start++;
         end--;
     }
+}
 int main(){
     int n,i,j;
     scanf("%d", &n);
@@ -23,4 +24,4 @@ int main(){
     }
 for(i=0;i<n;i++){
     printf("%d", arr[i]);}
-}
+
