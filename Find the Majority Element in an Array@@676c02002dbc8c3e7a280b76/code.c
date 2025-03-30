@@ -3,10 +3,10 @@ int majorityelement(int arr,int n){
     int count =1;candidate=arr[0];
     for (i=0;i<n;i++){
         if(a[i]==candidate){
-            count++
+            count++;
         }
         else{
-            count--
+            count--;
         }
     if (count==0){
         candidate=arr[i]
