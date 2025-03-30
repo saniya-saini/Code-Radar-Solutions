@@ -22,5 +22,5 @@ void reverse( int arr[], int start , int end){
         reverse(arr,k,n-1);
     }
     for(i=0;i<n;i++){
-    printf("%d", arr[i]);}
+        printf("%d", arr[i]);}
 }
